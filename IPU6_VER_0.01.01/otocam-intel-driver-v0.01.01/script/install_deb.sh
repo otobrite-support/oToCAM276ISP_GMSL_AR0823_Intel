@@ -1,0 +1,14 @@
+#sudo dpkg -i --force-overwrite ../kernel/linux-headers-6.12.36-lts-250711t071314z_6.12.36-1000_amd64.deb
+#sudo dpkg -i --force-overwrite ../kernel/linux-image-6.12.36-lts-250711t071314z_6.12.36-1000_amd64.deb
+#sudo dpkg -i --force-overwrite ../deb/aiqb-ipu6ep_1.0.0-202506291929.2_amd64.deb
+#sudo dpkg -i --force-overwrite ../deb/aiqb-ipu6epmtl_1.0.0-202506291930.2_amd64.deb
+#sudo dpkg -i --force-overwrite ../deb/icamerasrc_1.0.0-20250630_amd64.deb
+#sudo dpkg -i --force-overwrite ../deb/ipu6epfw_1.0.0-20250630_amd64.deb
+#sudo dpkg -i --force-overwrite ../deb/ipu6epmtlfw_1.0.0-20250630_amd64.deb
+#sudo dpkg -i --force-overwrite ../deb/libcamhal_1.0.0-20250630_amd64.deb
+#sudo dpkg -i --force-overwrite ../deb/libiaaiq-ipu6ep_1.0.0-20250630_amd64.deb
+#sudo dpkg -i --force-overwrite ../deb/libiaaiq-ipu6epmtl_1.0.0-20250630_amd64.deb
+#sudo dpkg -i --force-overwrite ../deb/libiacss-ipu6ep_1.0.0-20250630_amd64.deb
+#sudo dpkg -i --force-overwrite ../deb/libiacss-ipu6epmtl_1.0.0-20250630_amd64.deb
+sudo cp -r ../deb/usr/include/* /usr/include/
+sudo cp -r ../deb/usr/lib/* /usr/lib/
